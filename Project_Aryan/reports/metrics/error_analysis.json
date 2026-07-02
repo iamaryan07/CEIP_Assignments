@@ -1,0 +1,37 @@
+[
+  {
+    "path": "C:\\Users\\Aryan\\Desktop\\NTCC\\ml\\data\\eurosat\\2750\\SeaLake\\SeaLake_651.jpg",
+    "true_class": "SeaLake",
+    "pred_class": "River",
+    "confidence": 0.9990829229354858,
+    "hypothesis": "Both are water; the model may be keying on hue/turbidity rather than the shape cues (linear vs basin) a human would use."
+  },
+  {
+    "path": "C:\\Users\\Aryan\\Desktop\\NTCC\\ml\\data\\eurosat\\2750\\Highway\\Highway_1615.jpg",
+    "true_class": "Highway",
+    "pred_class": "River",
+    "confidence": 0.9983554482460022,
+    "hypothesis": "Both render as long, thin, gently-curving linear features bisecting the tile; asphalt-grey and water-grey are easy to confuse under haze or shadow."
+  },
+  {
+    "path": "C:\\Users\\Aryan\\Desktop\\NTCC\\ml\\data\\eurosat\\2750\\Pasture\\Pasture_577.jpg",
+    "true_class": "Pasture",
+    "pred_class": "HerbaceousVegetation",
+    "confidence": 0.9972051978111267,
+    "hypothesis": "Both are green, low-texture, non-forested ground cover with no strong distinguishing edges at 64x64 resolution."
+  },
+  {
+    "path": "C:\\Users\\Aryan\\Desktop\\NTCC\\ml\\data\\eurosat\\2750\\Highway\\Highway_365.jpg",
+    "true_class": "Highway",
+    "pred_class": "River",
+    "confidence": 0.9956889748573303,
+    "hypothesis": "Both render as long, thin, gently-curving linear features bisecting the tile; asphalt-grey and water-grey are easy to confuse under haze or shadow."
+  },
+  {
+    "path": "C:\\Users\\Aryan\\Desktop\\NTCC\\ml\\data\\eurosat\\2750\\Highway\\Highway_1145.jpg",
+    "true_class": "Highway",
+    "pred_class": "River",
+    "confidence": 0.9952120780944824,
+    "hypothesis": "Both render as long, thin, gently-curving linear features bisecting the tile; asphalt-grey and water-grey are easy to confuse under haze or shadow."
+  }
+]

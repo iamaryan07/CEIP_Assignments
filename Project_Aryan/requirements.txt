@@ -1,0 +1,19 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+scikit-learn
+pandas
+matplotlib
+seaborn
+pillow
+tqdm
+opencv-python-headless
+huggingface_hub
+datasets
+pyarrow
+streamlit
+fastapi
+uvicorn[standard]
+python-multipart
+reportlab
+grad-cam

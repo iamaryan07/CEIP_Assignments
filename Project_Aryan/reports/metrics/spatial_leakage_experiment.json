@@ -1,0 +1,6 @@
+{
+  "block_split_val_accuracy": 0.8590123456790123,
+  "random_split_val_accuracy": 0.8735802469135803,
+  "leakage_gap": 0.01456790123456797,
+  "explanation": "EuroSAT tiles were extracted by walking each Sentinel-2 scene raster-by-raster, so tiles with adjacent file indices are also adjacent on the ground and visually near-duplicate (same field, same cloud shadow, same crop row pattern). A random per-image split scatters these near-duplicates across train AND val, so the model partly memorizes local texture instead of learning a generalizable class boundary -- inflating val accuracy. The spatial-block split keeps every tile from one ~25-tile contiguous block on the same side of the split, removing that leakage channel. The gap above is the cost of that leakage."
+}

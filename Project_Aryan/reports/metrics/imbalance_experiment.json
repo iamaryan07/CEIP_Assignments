@@ -1,0 +1,21 @@
+{
+  "downsampled_classes": [
+    "Pasture",
+    "PermanentCrop"
+  ],
+  "downsample_fraction": 0.2,
+  "no_mitigation": {
+    "macro_f1": 0.6603794300860603,
+    "per_class_f1": {
+      "Pasture": 0.6900584795321637,
+      "PermanentCrop": 0.03664921465968586
+    }
+  },
+  "weighted_loss_mitigation": {
+    "macro_f1": 0.8080748989202021,
+    "per_class_f1": {
+      "Pasture": 0.7470817120622568,
+      "PermanentCrop": 0.6757575757575758
+    }
+  }
+}
