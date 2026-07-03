@@ -4,6 +4,8 @@ Implements the project brief: a land-use classifier (Module 1), a temporal chang
 detector (Module 2), and a Streamlit geo-dashboard (Module 3), plus the spatial-leakage
 write-up, error analysis, and bonus tasks A/C/D.
 
+### [Demo Link](https://drive.google.com/file/d/1IehkUxODJBs3g1u273-WkLkz3UWbInN6/view?usp=drive_link)
+
 ## Run order
 
 ```bash
